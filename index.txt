@@ -1,0 +1,427 @@
+Blog Website Robotsideas
+
+by Eccedev
+
+new
+modify index.html to show what's needed
+modify styles.css to style properly that new changes
+Posts filtered by tag, categorie or all posts
+added css>style-posts.css for post pages
+Specific style for post pages and filter by tag, categorie or allposts pages
+modify and added images> new images for hero, posts, tags, categories
+added allpost button
+added new aside section for social buttons
+added new fotter botton section for social buttons
+added data>posts.json to be able to filter by tag, categorie or allpost
+added posts>allposts.html to show all post11
+added posts>filter-theme.html
+added posts>filterbycategorie.html to show filtered by categorie posts 
+added posts>filterbytag.html to show filtered by tags posts 
+added posts>post-theme.html to place post content
+added posts>post1.html to 11 to place different posts content
+added banner pop-up starter as modal to show a message
+modify js>script.js cancel slider and add code to filter by tag, categorie or allposts
+added dark/light mode
+
+following features:
+legal pages
+improve accessibility
+
+starter theme template
+Thanks to 
+codewithsadee
+and some ideas for new implementations
+ksound22
+AlexCGDesing
+
+
+Index page
+#---------- HEADER ----------#
+
+alt = Robotsideas logo
+
+alt = Robotsideas logo
+
+aria-label = close menu
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Home
+Featured Post
+Recent Post
+Social
+Contact
+dark/light swicher
+
+aria-label = open menu
+<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+
+
+#---------- CATEGORIES ----------#
+Robotsideas
+AI
+Enhhumans
+Smarthings
+IoT
+Curiosities
+
+
+
+#---------- HERO ----------#
+
+Ey Human!
+
+Here the Robotsideas
+
+This is a project based on "human first." What does that mean? That we are the priority and that the incredible technology that is 
+breaking into our lives is the enabler of a better future for everyone.
+
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+alt = Robotsideas
+
+alt = shape
+
+
+
+#---------- FEATURED POST ----------#
+
+Featured Posts
+
+alt = This is the Post1 Title
+
+#Humanoids #Cobots
+
+This is the Post1 Title
+
+
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+#---------- ALL POSTS BUTTON----------#
+All Posts
+
+#---------- POPULAR TAGS ----------#
+
+Popular Tags
+
+<!-- Most searched keywords  -->
+
+Humanoids
+Cobots
+Socialbots
+IoRT
+Automata
+Modularbots
+
+
+
+#---------- RECENT POST ----------#
+
+Recent posts
+
+alt = Title of recent post11
+
+Title of recent post11
+
+
+# IoRT
+# Cobots
+
+
+#---------- ALL POSTS BUTTON----------#
+All Post
+
+#---------- SOCIAL BUTTONS----------#
+<ion-icon name="logo-twitter"></ion-icon>
+Instagram
+
+<ion-icon name="logo-linkedin"></ion-icon>
+Youtube
+
+<ion-icon name="logo-instagram"></ion-icon>
+Facebook
+
+<ion-icon name="logo-linkedin"></ion-icon>
+TikTok
+
+<ion-icon name="logo-instagram"></ion-icon>
+X
+
+
+#---------- FOOTER ----------#
+
+Robotsideas logo
+
+Technology has been linked to the human race for hundreds of thousands of years.
+
+Contact
+
+Find us on our social networks.
+
+
+Categories
+
+Robotsideas
+AI
+Enhhumans
+Smarthings
+IoT
+Curiosities
+
+
+&copy; Robotsideas
+
+<ion-icon name="logo-twitter"></ion-icon>
+Instagram
+
+<ion-icon name="logo-linkedin"></ion-icon>
+Youtube
+
+<ion-icon name="logo-instagram"></ion-icon>
+Facebook
+
+<ion-icon name="logo-linkedin"></ion-icon>
+TikTok
+
+<ion-icon name="logo-instagram"></ion-icon>
+X
+
+
+
+#---------- BACK TO TOP ----------#
+
+aria-label = back to top
+
+<ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+
+
+
+filtered tag, categorie and allposts pages
+#---------- HEADER ----------#
+
+alt = Robotsideas logo
+
+alt = Robotsideas logo
+
+aria-label = close menu
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Home
+Featured Post
+Recent Post
+Social
+Contact
+swicher dark/light
+
+aria-label = open menu
+<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+
+
+#---------- CATEGORIES ----------#
+Robotsideas
+AI
+Enhhumans
+Smarthings
+IoT
+Curiosities
+
+
+
+#---------- FILTERED POSTS BY TAG, CATEGORIE OR ALLPOSTS ----------#
+
+Filtered Posts cards
+
+img post
+
+alt = This is the Post1 Title img
+
+This is the Post1 Title
+
+
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+
+
+#---------- SOCIAL BUTTONS----------#
+<ion-icon name="logo-twitter"></ion-icon>
+Instagram
+
+<ion-icon name="logo-linkedin"></ion-icon>
+Youtube
+
+<ion-icon name="logo-instagram"></ion-icon>
+Facebook
+
+<ion-icon name="logo-linkedin"></ion-icon>
+TikTok
+
+<ion-icon name="logo-instagram"></ion-icon>
+X
+
+
+#---------- FOOTER ----------#
+
+Robotsideas logo
+
+Technology has been linked to the human race for hundreds of thousands of years.
+
+Contact
+
+Find us on our social networks.
+
+
+Categories
+
+Robotsideas
+AI
+Enhhumans
+Smarthings
+IoT
+Curiosities
+
+
+&copy; Robotsideas
+
+<ion-icon name="logo-twitter"></ion-icon>
+Instagram
+
+<ion-icon name="logo-linkedin"></ion-icon>
+Youtube
+
+<ion-icon name="logo-instagram"></ion-icon>
+Facebook
+
+<ion-icon name="logo-linkedin"></ion-icon>
+TikTok
+
+<ion-icon name="logo-instagram"></ion-icon>
+X
+
+
+
+#---------- BACK TO TOP ----------#
+
+aria-label = back to top
+
+<ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+
+
+
+post page
+#---------- HEADER ----------#
+
+alt = Robotsideas logo
+
+alt = Robotsideas logo
+
+aria-label = close menu
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Home
+Social
+Featured Post
+Recent Post
+Contact
+swicher dark/light
+
+aria-label = open menu
+<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+
+
+#---------- article ----------#
+
+img post
+
+alt = This is the Post1 Title img
+
+This is the Post1 Title
+
+title post
+
+tags
+
+date
+
+text
+
+list of sections
+
+content sections
+
+img into content
+
+
+#---------- button ----------#
+
+arrow back go home
+
+#---------- CATEGORIES ----------#
+Robotsideas
+AI
+Enhhumans
+Smarthings
+IoT
+Curiosities
+
+#---------- SOCIAL BUTTONS----------#
+<ion-icon name="logo-twitter"></ion-icon>
+Instagram
+
+<ion-icon name="logo-linkedin"></ion-icon>
+Youtube
+
+<ion-icon name="logo-instagram"></ion-icon>
+Facebook
+
+<ion-icon name="logo-linkedin"></ion-icon>
+TikTok
+
+<ion-icon name="logo-instagram"></ion-icon>
+X
+
+
+#---------- FOOTER ----------#
+
+Robotsideas logo
+
+Technology has been linked to the human race for hundreds of thousands of years.
+
+Contact
+
+Find us on our social networks.
+
+
+Categories
+
+Robotsideas
+AI
+Enhhumans
+Smarthings
+IoT
+Curiosities
+
+
+&copy; Robotsideas
+
+<ion-icon name="logo-twitter"></ion-icon>
+Instagram
+
+<ion-icon name="logo-linkedin"></ion-icon>
+Youtube
+
+<ion-icon name="logo-instagram"></ion-icon>
+Facebook
+
+<ion-icon name="logo-linkedin"></ion-icon>
+TikTok
+
+<ion-icon name="logo-instagram"></ion-icon>
+X
+
+
+
+#---------- BACK TO TOP ----------#
+
+aria-label = back to top
+
+<ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+

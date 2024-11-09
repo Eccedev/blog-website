@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--     - primary meta tags  -->
+	<title>Post1 - Robotsideas Blog Website</title>
+	<meta name="title" content="Wren - Perosonal Blog Website">
+	<meta name="description" content="This is a blog html template made by code-with-sadee">
+	<!--     - favicon  -->
+	<link rel="shortcut icon" href="../../favicon.svg" type="image/svg+xml">
+	<!--     - google font link  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<!--     - custom css link  -->
+	<link rel="stylesheet" href="../css/style-post.css">
+	<!--     - preload images  -->
+	<link rel="preload" as="image" href="../images/featured-1">
+</head>
+
+<body id="top">
+	<a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+	<!--  - #HEADER  -->
+	<header class="header" data-header>
+		<div class="container">
+
+			<a href="../../index.html" class="logo">
+				<img src="../images/logo.svg" width="119" height="37" alt="Wren logo">
+			</a>
+
+			<nav class="navbar" data-navbar>
+
+				<div class="navbar-top">
+					<a href="../../index.html" class="logo">
+						<img src="../images/logo.svg" width="119" height="37" alt="Wren logo">
+					</a>
+
+					<button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+						<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+					</button>
+				</div>
+
+				<ul class="navbar-list">
+
+					<li>
+						<a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+					</li>
+
+					<li>
+						<a href="#social-post" class="navbar-link hover-1" data-nav-toggler>Social</a>
+					</li>
+
+					<li>
+						<a href="../../index.html#featured" class="navbar-link hover-1" data-nav-toggler>Featured
+							Posts</a>
+					</li>
+
+					<li>
+						<a href="../../index.html#recent" class="navbar-link hover-1" data-nav-toggler>Recent Posts</a>
+					</li>
+
+					<li>
+						<a href="#footer" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+					</li>
+
+					<!-- Tema dark/light switcher -->
+					<li class="theme-switch  navbar-link hover-1">
+						<input type="checkbox" class="checkbox" id="checkbox" />
+						<label for="checkbox" class="label">
+
+							<ion-icon name="moon-outline" class="moon"></ion-icon>
+							<ion-icon name="sunny-outline" class="sun"></ion-icon>
+							<div class="switcher"></div>
+						</label>
+					</li>
+
+				</ul>
+
+				<!--<div class="navbar-bottom">
+
+                    <div class="profile-card">
+                        <img src="./assets/images/author-1.png" width="48" height="48" alt="Steven"
+                            class="profile-banner">
+
+                        <div>
+                            <p class="card-title">Hello Steven !</p>
+
+                            <p class="card-subtitle">
+                                You have 3 new messages
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="link-list">
+
+                        <li>
+                            <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <p class="copyright-text">
+                    Copyright 2022 © Wren - Personal Blog Template.
+                    Developed by codewithsadee
+                </p> -->
+			</nav>
+
+
+
+			<button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+				<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+			</button>
+
+		</div>
+	</header>
+	<br>
+
+
+	<main id="main-content">
+		<article class="article-post feature-card">
+			<section class="card-post" id="post1" aria-label="post1">
+				<div class="container-post container-text-post">
+
+					<img src="../images/featured-1.jpg" alt="Imagen principal del post" class="main-image">
+
+					<h1 class="h1-post headline headline-1 section-title">
+						This is the <span class="span">Post6 Title</span>
+					</h1>
+
+					<div class="card-content">
+						<div class="card-wrapper">
+							<div class="card-tag">
+								<P>Tags:</P><p></p>
+								<!-- ¡¡¡ Recuerda añadir filterbytag.html?tag= los tags visibles en el post y en posts.json !!! -->
+								<a href="filterbytag.html?tag=IoRT" class="span hover-2 btn btn-primary">IoRT</a>
+								<a href="filterbytag.html?tag=Socialbots" class="span hover-2 btn btn-primary">Socialbots</a>
+								<!-- ¡¡¡ Recuerda añadir filterbycategorie.html?tag= la categoría invisibles en el post y en posts.json (igual que un tag) !!! -->
+								<a href="filterbycategorie.html?tag=Smarthings" class="span hover-2 btn btn-primary" style="display: none;"></a>
+								<a href="filterbycategorie.html?tag=IoT" class="span hover-2 btn btn-primary" style="display: none;"></a>
+							</div>
+						</div>
+						<div class="card-wrapper">
+							<div class="profile-card">
+								<time datetime="2024-11-25">25 Nov 2024</time>
+							</div>
+						</div>
+					</div>
+					<br>
+
+
+					<p class="hero-text">
+						I use animation as a third dimension by which to simplify experiences and kuiding thro
+						each and every
+						interaction. I’m not adding motion just to spruce things up, but doing it in ways that.
+					</p>
+
+					<p class="hero-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+						incididunt ut labore et
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						nisi ut aliquip
+						ex ea commodo consequat.
+					</p>
+					<nav class="table-of-contents list-content-text">
+						<h2 class="headline headline-3 section-title">Tabla de Contenidos</h2>
+						<ul>
+							<li><a href="#seccion1" class="li-content-list">Sección 1</a></li>
+							<li><a href="#seccion2"  class="li-content-list">Sección 2</a></li>
+							<li><a href="#seccion3"  class="li-content-list">Sección 3</a></li>
+						</ul>
+					</nav>
+					<section id="seccion1">
+						<h2 class="headline headline-3 section-title">Sección 1: Primer Contenido</h2>
+						<p class="hero-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec
+							ultricies lacinia,
+							nunc nisl aliquam massa, eget aliquam nisl nunc vel nunc. Sed euismod, nunc sit amet
+							aliquam
+							tincidunt, nisl nisl aliquam massa, eget aliquam nisl nunc vel nunc.
+						</p>
+					</section>
+					<blockquote class="quote-content">
+						"Una cita":"La innovación distingue a los líderes de los seguidores." - Steve Jobs
+					</blockquote>
+					<section id="seccion2">
+						<h2 class="headline headline-3 section-title">Sección 2: Segundo Contenido</h2>
+						<p class="hero-text">
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla
+							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+							deserunt mollit
+							anim id est laborum.
+						</p>
+					</section>
+					<img src="../images/z2.JPG" alt="Imagen de contenido" class="main-image">
+					<br>
+					<section id="seccion3">
+						<h2 class="headline headline-3 section-title">Sección 3: Contenido Final</h2>
+						<p class="hero-text">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+							doloremque laudantium,
+							totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+							beatae vitae
+							dicta sunt explicabo.
+						</p>
+					</section>
+					<a href="../../index.html" class="btn btn-secondary">
+						<ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+						<span class="span">Go Home</span>
+					</a>
+					<br>
+				</div>
+			</section>
+		</article>
+
+
+		<!--         - #CATEGORIES     -->
+		<!--         - #CATEGORIES     -->
+
+		<section id="Categories" class="tags" aria-labelledby="categories-label">
+			<div class="container">
+
+				<h2 class="headline headline-2 section-title" id="tag-label">
+					<span class="span">Categories</span>
+				</h2>
+				<br>
+
+				<!--<p class="section-text">
+            Most searched keywords
+          </p>-->
+
+				<ul class="grid-list">
+					<li>
+						<a href="filterbycategorie.html?tag=Robots" class="card tag-btn">
+							<img src="../images/categorie-xample.png" width="32" height="32" loading="lazy" alt="Curiosities">
+							<span class="btn-text">Robots</span>
+						</a>
+					</li>
+					<li>
+						<a href="filterbycategorie.html?tag=AI" class="card tag-btn">
+							<img src="../images/categorie-xample.png" width="32" height="32" loading="lazy" alt="Curiosities">
+							<span class="btn-text">AI</span>
+						</a>
+					</li>
+					<li>
+						<a href="filterbycategorie.html?tag=Enhumans" class="card tag-btn">
+							<img src="../images/categorie-xample.png" width="32" height="32" loading="lazy" alt="Curiosities">
+							<span class="btn-text">Enhumans</span>
+						</a>
+					</li>
+					<li>
+						<a href="filterbycategorie.html?tag=Smarthings" class="card tag-btn">
+							<img src="../images/categorie-xample.png" width="32" height="32" loading="lazy" alt="Curiosities">
+							<span class="btn-text">Smarthings</span>
+						</a>
+					</li>
+					<li>
+						<a href="filterbycategorie.html?tag=IoT" class="card tag-btn">
+							<img src="../images/categorie-xample.png" width="32" height="32" loading="lazy" alt="Curiosities">
+							<span class="btn-text">IoT</span>
+						</a>
+					</li>
+					<li>
+						<a href="filterbycategorie.html?tag=Curiosities" class="card tag-btn">
+							<img src="../images/categorie-xample.png" width="32" height="32" loading="lazy" alt="Curiosities">
+							<span class="btn-text">Curiosities</span>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+
+
+		<div id="social-post" class="article-post feature-card">
+			<section class="card-post">
+				<div class="container-post social-btn">
+					<ul class="social-list">
+
+						<li>
+							<button class="card tag-btn">
+								<a href="#" class="social-link">
+									<ion-icon name="logo-instagram"></ion-icon>
+									<span class="span" style="color: #d43089;">Instagram</span>
+								</a>
+							</button>
+						</li>
+
+						<li>
+							<button class="card tag-btn">
+								<a href="#" class="social-link">
+									<ion-icon name="logo-youtube"></ion-icon>
+									<span class="span" style="color: #ff0000;">Youtube</span>
+								</a>
+							</button>
+						</li>
+
+						<li>
+							<button class="card tag-btn">
+								<a href="#" class="social-link">
+									<ion-icon name="logo-facebook"></ion-icon>
+									<span class="span" style="color: #1877f2;">Facebook</span>
+							</button>
+							</a>
+						</li>
+
+						<li>
+							<button class="card tag-btn">
+								<a href="#" class="social-link">
+									<ion-icon name="logo-tiktok"></ion-icon>
+									<span class="span" style="color: #858484;">TikTok</span>
+								</a>
+							</button>
+						</li>
+
+						<!--<li>
+                            <button class="card tag-btn">
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                    <span class="span">X</span>
+                                </a>
+                            </button>
+                        </li>-->
+
+					</ul>
+
+				</div>
+			</section>
+		</div>
+
+
+
+	</main>
+
+
+	<!--     - #FOOTER  -->
+	<footer id="footer">
+		<div class="container">
+
+			<div class="card footer">
+
+				<div class="section footer-top">
+
+					<div class="footer-brand">
+
+						<a href="../../index.html" class="logo">
+							<img src="../images/logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+						</a>
+
+						<p class="footer-text">
+							Technology has been linked to the human race for hundreds of thousands of years. The new
+							technological
+							and industrial revolution is just beginning and robots of all kinds, thanks to AI, quantum
+							computing,
+							mechanical engineering, etc., will be part of our lives in a few years, just as the Internet
+							and mobile devices were before.
+							Can you imagine life today without them?
+						</p>
+
+						<p class="footer-list-title">Contact</p>
+
+						<address class="footer-text address">
+							Find us on our social networks.
+						</address>
+						<br>
+
+					</div>
+
+					<div class="footer-list">
+
+						<p class="footer-list-title">Categories</p>
+
+						<ul>
+
+							<li>
+								<a href="filterbycategorie.html?tag=Robots" class="footer-link hover-2">Robots</a>
+							</li>
+
+							<li>
+								<a href="filterbycategorie.html?tag=AI" class="footer-link hover-2">AI</a>
+							</li>
+
+							<li>
+								<a href="filterbycategorie.html?tag=Enhumans" class="footer-link hover-2">Enhumans</a>
+							</li>
+
+							<li>
+								<a href="filterbycategorie.html?tag=Smarthings"
+									class="footer-link hover-2">Smarthings</a>
+							</li>
+
+							<li>
+								<a href="filterbycategorie.html?tag=IoT" class="footer-link hover-2">IoT</a>
+							</li>
+
+							<li>
+								<a href="filterbycategorie.html?tag=Curiosities"
+									class="footer-link hover-2">Curiosities</a>
+							</li>
+
+							<!--<li>
+                                <a href="#" class="footer-link hover-2">Animal</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link hover-2">Dental</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link hover-2">Biology</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link hover-2">Design</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link hover-2">Breakfast</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link hover-2">Dessert</a>
+                            </li>-->
+
+						</ul>
+
+					</div>
+
+					<div class="footer-list">
+
+						<!--<p class="footer-list-title">Newsletter</p>
+
+                        <p class="footer-text">
+                            Sign up to be first to receive the latest stories inspiring us, case studies, and industry
+                            news.
+                        </p>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="name" placeholder="Your name" required class="input-field"
+                                autocomplete="off">
+
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <input type="email" name="email_address" placeholder="Emaill address" required
+                                class="input-field" autocomplete="off">
+
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="span">Random Robotsideas</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>-->
+
+						<div>
+							<p class="footer-list-title">We like crazy and daring "robotsideas".</p>
+							<a href="#" class="btn btn-secondary">
+								<span class="span">Are you in?</span>
+								<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="footer-bottom">
+
+					<p class="copyright" style="font-size: 1.6rem;">
+						&copy; <a href="#" class="copyright-link">Robotsideas</a>
+					</p>
+
+					<ul class="social-list">
+
+						<li>
+							<a href="#" class="social-link">
+								<span style="font-size: 2.5rem;"><ion-icon name="logo-instagram"></ion-icon></span>
+
+								<!--<span class="span" style="color: #d43089;">Instagram</span>-->
+							</a>
+						</li>
+						<p></p>
+
+						<li>
+							<a href="#" class="social-link">
+								<span style="font-size: 2.5rem;"><ion-icon name="logo-youtube"></ion-icon></span>
+								<!--<span class="span" style="color: #ff0000;">Youtube</span>-->
+							</a>
+						</li>
+						<p></p>
+
+						<li>
+							<a href="#" class="social-link">
+								<span style="font-size: 2.5rem;"><ion-icon name="logo-facebook"></ion-icon></span>
+								<!--<span class="span" style="color: #1877f2;">Facebook</span>-->
+							</a>
+						</li>
+						<p></p>
+
+						<li>
+							<a href="#" class="social-link">
+								<span style="font-size: 2.5rem;"><ion-icon name="logo-tiktok"></ion-icon></span>
+								<!--<span class="span" style="color: #858484;">TikTok</span>-->
+							</a>
+						</li>
+
+						<!--<li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                                <span class="span">X</span>
+                            </a>
+                        </li>-->
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+
+	<!--     - #BACK TO TOP arrow  -->
+
+	<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+		<ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+	</a>
+
+	<!--     - custom js link  -->
+	<script src="../js/script.js"></script>
+
+	<!--     - ionicon link  -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

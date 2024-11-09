@@ -1,0 +1,132 @@
+[
+    {
+        "title": "This is the Post11 Title",
+        "url": "../posts/post11.html",
+        "image": "../images/post-main-img-xample.jpg",
+        "tags": [
+            "Robots",
+            "Curiosities",
+            "AI",
+            "Humanoids",
+            "IoRT",
+            "Automata",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post10 Title",
+        "url": "../posts/post10.html",
+        "image": "../images/post-10.png",
+        "tags": [
+            "Robots",
+            "AI",
+            "Cobots",
+            "Modularbots",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post9 Title",
+        "url": "../posts/post9.html",
+        "image": "../images/post-9.png",
+        "tags": [
+            "Robots",
+            "Modularbots",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post8 Title",
+        "url": "../posts/post8.html",
+        "image": "../images/post-8.png",
+        "tags": [
+            "Robots",
+            "Enhumans",
+            "Socialbots",
+            "Modularbots",
+            "Allposts"
+        ]
+    },    
+    {
+        "title": "This is the Post7 Title",
+        "url": "../posts/post7.html",
+        "image": "../images/post-7.png",
+        "tags": [
+            "Curiosities",
+            "IoRT",
+            "Automata",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post6 Title",
+        "url": "../posts/post6.html",
+        "image": "../images/post-6.png",
+        "tags": [
+            "Smarthings",
+            "IoT",
+            "IoRT",
+            "Socialbots",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post5 Title",
+        "url": "../posts/post5.html",
+        "image": "../images/post-5.png",
+        "tags": [
+            "AI",
+            "Enhumans",
+            "Socialbots",
+            "Humanoids",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post4 Title",
+        "url": "../posts/post4.html",
+        "image": "../images/post-4.png",
+        "tags": [
+            "Robots",
+            "Smarthings",
+            "Cobots",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post3 Title",
+        "url": "../posts/post3.html",
+        "image": "../images/post-3.png",
+        "tags": [
+            "Robots",
+            "Cobots",
+            "Socialbots",
+            "Humanoids",
+            "Allposts"
+        ]
+    },    
+    {
+        "title": "This is the Post2 Title",
+        "url": "../posts/post2.html",
+        "image": "../images/post-2.png",
+        "tags": [
+            "IoT",
+            "AI",
+            "Socialbots",
+            "IoRT",
+            "Allposts"
+        ]
+    },
+    {
+        "title": "This is the Post1 Title",
+        "url": "../posts/post1.html",
+        "image": "../images/post-main-img-xample.jpg",
+        "tags": [
+            "Robots",
+            "Humanoids",
+            "Cobots",
+            "Allposts"
+        ]
+    }
+    
+]
