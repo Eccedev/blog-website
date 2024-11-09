@@ -4,7 +4,7 @@
 # blog-website theme
 Blog Website theme avoiding the use of CMS
 #
-by Eccedev
+by Eccedev visit in https://blog-website-theme.vercel.app/
 #
 new in this theme  
 modify index.html to show what's needed  
