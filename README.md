@@ -32,8 +32,8 @@ legal pages
 improve accessibility  
 
 starter theme template  
-Thanks to 
-codewithsadee  
+Thanks to  
+[codewithsadee](https://github.com/codewithsadee)  
 
   
 and some ideas for new implementations  
