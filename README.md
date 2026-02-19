@@ -1,5 +1,9 @@
-![1](https://github.com/user-attachments/assets/681ee7a6-6a6f-488a-947a-6810a45fea8b)
-![2](https://github.com/user-attachments/assets/9bf22709-1b2e-4e53-a511-5613062c0031)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e918f3ba-54cb-4d4a-9975-d5b6939ea728" alt="ri1">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/31c74fbc-98cf-4abd-a956-476fee1824b8" alt="ri1">
+</p>
 
 # blog-website theme
 Blog Website theme avoiding the use of CMS
